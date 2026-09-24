@@ -1,0 +1,111 @@
+.quran-page {
+    width: 92%;
+    max-width: 800px;
+    margin: 25px auto;
+}
+
+.back {
+    color: white;
+    text-decoration: none;
+}
+
+.quran-header {
+    text-align: center;
+    padding: 35px 20px;
+    margin-bottom: 25px;
+    background: #0d332a;
+    border-radius: 25px;
+}
+
+.quran-icon {
+    font-size: 55px;
+}
+
+.quran-header h1 {
+    margin: 10px 0;
+}
+
+.quran-header p {
+    color: #a9cec2;
+}
+
+.search {
+    width: 100%;
+    padding: 17px;
+    margin-bottom: 20px;
+    border: 1px solid #286653;
+    border-radius: 15px;
+    background: #0d2923;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.search::placeholder {
+    color: #8eafa5;
+}
+
+.surah-list {
+    display: grid;
+    gap: 12px;
+}
+
+.surah-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px;
+    background: #0d2923;
+    border: 1px solid #1b4d40;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.surah-card:hover {
+    transform: translateY(-2px);
+    background: #123d31;
+}
+
+.surah-number {
+    min-width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #17483a;
+    font-weight: bold;
+}
+
+.surah-info {
+    flex: 1;
+}
+
+.surah-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.surah-meaning {
+    margin-top: 5px;
+    color: #8fb8aa;
+    font-size: 14px;
+}
+
+.surah-arabic {
+    font-size: 24px;
+    direction: rtl;
+}
+
+.loading {
+    text-align: center;
+    padding: 30px;
+    color: #a9cec2;
+}
+
+.error {
+    text-align: center;
+    padding: 30px;
+    color: #ffb3b3;
+}

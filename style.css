@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #071a16;
+    color: white;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #0b2922;
+    border-bottom: 1px solid #1b4d40;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.city {
+    color: #b7d8ce;
+}
+
+main {
+    width: 90%;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.hero {
+    text-align: center;
+    padding: 35px 20px;
+    margin-bottom: 30px;
+    background: #0d332a;
+    border-radius: 25px;
+    border: 1px solid #205b4c;
+}
+
+.small {
+    color: #a7cfc2;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 24px;
+}
+
+.clock {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.hero p:last-child {
+    color: #b7d8ce;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.prayers {
+    display: grid;
+    gap: 12px;
+}
+
+.prayer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #0d2923;
+    border: 1px solid #1b4d40;
+    border-radius: 16px;
+    transition: 0.2s;
+}
+
+.prayer:hover {
+    transform: translateY(-2px);
+}
+
+.prayer strong {
+    font-size: 20px;
+}
+
+.reminder {
+    margin-top: 30px;
+    padding: 25px;
+    text-align: center;
+    background: #0d332a;
+    border-radius: 20px;
+}
+
+.reminder p {
+    color: #b7d8ce;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #91b7ab;
+}
+
+footer p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 500px) {
+    .clock {
+        font-size: 38px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .prayer {
+        padding: 17px;
+    }
+}
+.next-prayer {
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    text-align: center;
+    background: #123d31;
+    border: 1px solid #286653;
+    border-radius: 25px;
+}
+
+.next-prayer p {
+    color: #a9cec2;
+}
+
+.next-prayer h2 {
+    margin: 8px 0;
+    font-size: 30px;
+}
+
+#nextPrayerTime {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.remaining {
+    margin-top: 15px;
+}
+
+#countdown {
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 500px) {
+
+    .next-prayer h2 {
+        font-size: 26px;
+    }
+
+    #countdown {
+        font-size: 32px;
+    }
+}
